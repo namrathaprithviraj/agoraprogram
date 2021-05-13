@@ -1,0 +1,88 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.leftpane{
+    background-color: white;
+    float:left;
+    height: 100vh;
+    width:25vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rightpane{
+    background-color: #099dfd;
+    height: 100vh;
+    flex:1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.imageContainer{
+    width: 250px;
+    margin: 10px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formContainer{
+    margin: 60px auto 0 auto;
+    width: 240px;
+}
+
+input{
+    border: 2px solid #099dfd;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    border: none;
+    background-color: #099dfd;
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 5px;
+    padding-inline: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover{
+    background-color: #4ab5fd;
+}
+
+.illusContainer{
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.301);
+    width: 500px;
+    height: 500px;
+    border-radius:250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illusImg{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    
+}
+
+#tagline{
+    margin-top: 20px;
+    font-size: 23px;
+    color: white;
+
+}
